@@ -1,0 +1,42 @@
+.Profile {
+  .nav {
+    margin-top: 40px;
+    background: #f9f9f9;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 2px solid rgba(66, 69, 76, 0.1);
+    padding: 0 60px;
+
+    a {
+      color: rgba(66, 69, 76, 0.6);
+      font-weight: 400;
+      font-size: 18px;
+      margin-right: 40px;
+      position: relative;
+
+      &.active {
+        color: #42454c;
+      }
+
+      &.active::before {
+        content: "";
+        border-bottom: 3px solid #3f73f9;
+        position: absolute;
+        bottom: -43px;
+        left: 0;
+        width: 100%;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .CardWhite {
+    border-radius: 0 0 16px 16px;
+    padding: 40px 60px 60px 60px;
+  }
+}

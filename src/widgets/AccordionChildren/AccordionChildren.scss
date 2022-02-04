@@ -1,0 +1,45 @@
+.AccordionChildren {
+  .accordion-children,
+  .accordion-sub__children {
+    display: flex;
+    align-items: center;
+    height: 17px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding-left: 25px;
+
+    .name {
+      flex: 1;
+      opacity: 0.8;
+      font-weight: 600;
+
+      .body1 {
+        padding-left: 10px;
+      }
+    }
+
+    .items {
+      display: inline-grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      flex: 1;
+
+      .item {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        .dark-gray {
+          opacity: 0.6;
+        }
+
+        .blue {
+          opacity: 1;
+        }
+
+        .body1 {
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

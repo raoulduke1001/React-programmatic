@@ -1,0 +1,89 @@
+.Table {
+  /* Make sure the inner table is always as wide as needed */
+  width: 100%;
+  border-spacing: 0;
+
+  .cell {
+    font-size: 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    width: 1%; /* The secret sauce each cell should grow equally */
+
+    &.collapse {
+      width: 0.0000000001%; /* But "collapsed" cells should be as small as possible */
+    }
+  }
+
+  .heading {
+    margin-bottom: 10px;
+
+    .cell {
+      font-weight: 300;
+      font-size: 12px;
+      user-select: none;
+      justify-content: flex-start;
+      padding: 0 20px;
+
+      .text {
+        color: #42454c;
+        opacity: 0.6;
+        margin-right: 5px;
+      }
+
+      &.isGrouped {
+        .GroupIcon {
+          transform: rotate(-90deg);
+        }
+      }
+    }
+
+    .GroupBy {
+      margin-right: 6px;
+      padding: 0 4px;
+    }
+  }
+
+  .body {
+    .row {
+      background: #fff;
+      height: 85px;
+      margin-bottom: 10px;
+      padding: 20px 10px 20px 0;
+      border-radius: 16px;
+
+      .cell {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-weight: 500;
+        font-size: 14px;
+        border-right: 1px solid #3f73f9;
+        padding: 0 20px;
+
+        .expanded {
+          display: flex;
+          align-items: center;
+
+          svg {
+            transform: rotate(180deg);
+            margin-right: 5px;
+            width: 4px;
+            height: 12px;
+            margin-right: 10px;
+          }
+
+          &.isExpanded {
+            svg {
+              transform: rotate(-90deg);
+            }
+          }
+        }
+
+        .sub-rows-length {
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+}

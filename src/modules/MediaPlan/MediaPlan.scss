@@ -1,0 +1,131 @@
+.MediaPlan {
+  .container {
+    padding: 0 40px;
+  }
+
+  .title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .sub-title {
+    font-weight: normal;
+    opacity: 0.6;
+  }
+
+  .rows {
+    margin-top: 40px;
+
+    .row {
+      margin-bottom: 40px;
+
+      .items-wrapp {
+        display: flex;
+        align-items: center;
+      }
+
+      .items {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+
+        input {
+          width: 415px;
+          background: #f0f1f3;
+          margin-right: 20px;
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+
+        .Select {
+          width: 415px;
+          margin-right: 20px;
+        }
+
+        .Select:last-child {
+          margin-right: 0;
+        }
+
+        .Switch {
+          margin-right: 20px;
+        }
+      }
+
+      .items-switch:last-child {
+        margin-left: 20px;
+      }
+
+      .RadioButton {
+        margin-right: 30px;
+      }
+
+      .RadioButton:last-child {
+        margin-right: 0;
+      }
+
+      &:first-child {
+        margin-bottom: 0;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &-cube {
+        margin: 40px 0;
+      }
+
+      &-filepond {
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+        .FileUpload {
+          width: 415px;
+          margin-right: 20px;
+        }
+
+        .FileUpload:last-child {
+          margin-right: 0;
+        }
+      }
+
+      &-shows {
+        .items {
+          .DatePicker {
+            .date-picker {
+              width: 192px;
+              background: #f0f1f3;
+              box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04),
+                0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .actions {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    height: 72px;
+    background: #f9f9f9;
+    padding: 0 40px;
+    border-radius: 0 0 24px 24px;
+
+    .wrapp {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      flex: 1;
+
+      .secondary {
+        margin-right: 20px;
+      }
+    }
+  }
+}

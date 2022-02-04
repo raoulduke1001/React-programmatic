@@ -1,0 +1,30 @@
+.Category {
+  display: flex;
+  min-width: 87px;
+  width: 200px;
+
+  .Line {
+    margin-right: 10px;
+  }
+
+  .Checkbox {
+    align-items: flex-start;
+    margin-right: 10px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+
+    .type {
+      font-weight: 600;
+      font-size: 12px;
+    }
+
+    .amount {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  }
+}

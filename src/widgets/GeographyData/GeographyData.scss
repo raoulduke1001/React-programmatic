@@ -1,0 +1,36 @@
+.GeographyData {
+  display: flex;
+  align-items: center;
+
+  .cube {
+    width: 20px;
+    height: 20px;
+    background: #3f73f9;
+    border-radius: 4px;
+    margin-right: 10px;
+
+    &.yellow {
+      background: #ffb800;
+    }
+
+    &.green {
+      background: #33d69f;
+    }
+
+    &.purple {
+      background: #6218ff;
+    }
+
+    &.red {
+      background: #ff4c61;
+    }
+  }
+
+  .percent {
+    margin-left: auto;
+
+    .body1 {
+      opacity: 0.6;
+    }
+  }
+}

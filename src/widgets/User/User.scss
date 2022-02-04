@@ -1,0 +1,33 @@
+.User {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  .info {
+    text-align: right;
+
+    .body2 {
+      opacity: 0.6;
+      font-weight: 400;
+    }
+  }
+
+  .avatar {
+    margin: 0 15px;
+  }
+
+  .drop {
+    display: flex;
+    align-items: center;
+  }
+
+  .Dropdown-content {
+    .body2 {
+      padding: 12px 20px;
+
+      &:hover {
+        background: rgba(163, 148, 142, 0.05);
+      }
+    }
+  }
+}

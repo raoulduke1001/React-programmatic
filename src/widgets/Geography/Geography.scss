@@ -1,0 +1,14 @@
+.Geography {
+  .CardWhite {
+    width: 325px;
+    min-height: 455px;
+
+    .GeographyData {
+      margin-bottom: 15px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

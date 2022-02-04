@@ -1,0 +1,56 @@
+.TabLinks {
+  background: #f9f9f9;
+  height: 118px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    display: inline-flex;
+    min-width: 220px;
+    height: 38px;
+    line-height: 34px;
+    color: rgba(66, 69, 76, 0.5);
+    text-decoration: none;
+    padding: 0 8px;
+    margin: 0 15px;
+    font-size: 14px;
+    font-weight: 300;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 18px;
+      height: 18px;
+      border: 2px solid rgba(66, 69, 76, 0.5);
+      border-radius: 50%;
+    }
+
+    &::before {
+      content: "";
+      border-top: 4px solid rgba(66, 69, 76, 0.5);
+      border-radius: 2px;
+      position: absolute;
+      top: -10px;
+      left: 0;
+      width: 100%;
+    }
+
+    &.active::after {
+      border: 5px solid #3f73f9;
+    }
+
+    &.active {
+      color: #42454c;
+    }
+
+    &.active::before {
+      border-top: 4px solid #3f73f9;
+    }
+  }
+}

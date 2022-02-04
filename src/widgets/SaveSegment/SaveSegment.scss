@@ -1,0 +1,94 @@
+.SaveSegment {
+  margin-top: 40px;
+
+  .save-segment {
+    background: linear-gradient(180deg, #6b58e0 0%, #3f73f9 100%);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04),
+      0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    .arrow-icon {
+      margin-left: 15px;
+
+      &__open {
+        transform: rotate(180deg);
+        margin-left: 15px;
+      }
+    }
+  }
+}
+
+.Modal {
+  .wrapper {
+    width: 670px;
+
+    .content {
+      .save-segment__visible {
+        position: relative;
+
+        .segmet-field {
+          background: #ffffff;
+          border: 1px solid rgba(66, 69, 76, 0.2);
+          border-radius: 4px;
+          width: 100%;
+          margin-bottom: 0;
+        }
+
+        .arrow-icon {
+          position: absolute;
+          right: 14px;
+          top: 14px;
+
+          &__open {
+            transform: rotate(180deg);
+            position: absolute;
+            right: 14px;
+            top: 14px;
+          }
+        }
+      }
+
+      .save-segment__hidden {
+        background: #ffffff;
+        border: 1px solid rgba(66, 69, 76, 0.2);
+        padding: 10px;
+        margin-top: 5px;
+
+        .Checkbox {
+          margin-bottom: 20px;
+
+          &:first-child {
+            padding-bottom: 10px;
+            margin-top: 0;
+            border-bottom: 1px solid #c7c8ce;
+          }
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      .btn-actions {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 20px;
+
+        .Button {
+          min-width: 210px;
+        }
+
+        .primary {
+          margin-left: 20px;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

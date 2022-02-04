@@ -1,0 +1,60 @@
+.InterestsStatistics {
+  overflow: hidden;
+  border-radius: 16px;
+
+  .CardWhite {
+    width: 690px;
+    height: 455px;
+    border-radius: none;
+    padding: 20px 0 20px 40px;
+
+    .title-groups {
+      display: flex;
+      align-items: center;
+      height: 17px;
+      margin-bottom: 10px;
+      width: 100%;
+      padding: 0 40px 0 25px;
+
+      .name {
+        flex: 1;
+        opacity: 0.8;
+        font-weight: 600;
+      }
+
+      .items {
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        flex: 1;
+
+        .item {
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+
+          .dark-gray {
+            opacity: 0.6;
+          }
+
+          .blue {
+            opacity: 1;
+          }
+
+          .body1 {
+            font-weight: 600;
+          }
+        }
+      }
+    }
+
+    .statistics-content {
+      overflow: auto;
+      height: 100%;
+      padding-right: 40px;
+
+      &::-webkit-scrollbar-track {
+        background: #fff;
+      }
+    }
+  }
+}

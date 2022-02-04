@@ -1,0 +1,25 @@
+.Cube {
+  width: 20px;
+  height: 20px;
+  background: #dfdfdf;
+  border-radius: 2px;
+  margin-right: 5px;
+  cursor: pointer;
+  caret-color: transparent;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &.weekday {
+    background: #3f73f9;
+  }
+
+  &.weekend {
+    background: #df3045;
+  }
+
+  &.disabled {
+    background: #000;
+  }
+}

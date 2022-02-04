@@ -1,0 +1,36 @@
+.Finance {
+  .nav {
+    margin: 40px 0;
+    background-color: #f1f1f1;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 2px solid rgba(66, 69, 76, 0.1);
+
+    a {
+      color: rgba(66, 69, 76, 0.6);
+      font-weight: 500;
+      font-size: 14px;
+      margin-right: 40px;
+      position: relative;
+
+      &.active {
+        color: #42454c;
+      }
+
+      &.active::before {
+        content: "";
+        border-bottom: 3px solid #3f73f9;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        width: 100%;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.MainLayout {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background: #f0f1f3;
+  box-shadow: 0px 1.2px 3.6px rgba(0, 0, 0, 0.03),
+    0px 6.4px 14.4px rgba(0, 0, 0, 0.07);
+  // overflow-y: auto;
+  overflow: overlay;
+
+  &-content {
+    background: #f0f1f3;
+    padding: 30px;
+    width: 1440px;
+    margin: 0 auto;
+  }
+}

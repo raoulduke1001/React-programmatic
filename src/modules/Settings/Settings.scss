@@ -1,0 +1,37 @@
+.Settings {
+  .rows {
+    margin-top: 40px;
+
+    .row {
+      margin-bottom: 40px;
+
+      .items {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 20px;
+
+        .RadioButton {
+          margin-bottom: 15px;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    margin-top: 60px;
+
+    .primary {
+      width: 210px;
+    }
+  }
+}

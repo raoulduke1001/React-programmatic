@@ -1,0 +1,40 @@
+.Line {
+  min-height: 38px;
+  width: 1px;
+  background: #3f73f9;
+  border-radius: 1px;
+
+  &.shows {
+    background: #e89e2f;
+  }
+
+  &.coverage {
+    background: #a2e82f;
+  }
+
+  &.conversion {
+    background: #2fe8bb;
+  }
+
+  &.budget {
+    background: #6a2fe8;
+  }
+
+  &.avg {
+    background: #f56868;
+  }
+
+  &.black {
+    background: #323437;
+  }
+
+  &.gradient {
+    background: linear-gradient(180deg, #6b58e0 0%, #3f73f9 100%);
+  }
+
+  &.gray {
+    background: #95989d;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04),
+      0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+  }
+}

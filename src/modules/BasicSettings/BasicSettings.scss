@@ -1,0 +1,81 @@
+.BasicSettings {
+  .container {
+    padding: 0 40px;
+  }
+
+  .title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .sub-title {
+    font-weight: normal;
+    opacity: 0.6;
+  }
+
+  .rows {
+    margin-top: 40px;
+
+    .row {
+      margin-bottom: 40px;
+
+      .items {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+
+        input {
+          width: 415px;
+          background: #f0f1f3;
+          margin-right: 20px;
+        }
+
+        .Select {
+          width: 415px;
+        }
+
+        .Switch {
+          margin-right: 15px;
+        }
+      }
+
+      .RadioButton {
+        margin-right: 30px;
+
+        input {
+          margin-right: 0;
+        }
+      }
+
+      .RadioButton:last-child {
+        margin-right: 0;
+      }
+    }
+
+    .row-wrapp {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .actions {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    height: 72px;
+    background: #f9f9f9;
+    padding: 0 40px;
+    border-radius: 0 0 24px 24px;
+
+    .wrapp {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      flex: 1;
+
+      .secondary {
+        margin-right: 20px;
+      }
+    }
+  }
+}

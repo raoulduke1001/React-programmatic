@@ -1,0 +1,59 @@
+.Typography {
+  &.h1 {
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  &.h2 {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  &.body1 {
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  &.body2 {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  &.span {
+    font-weight: normal;
+    font-size: 10px;
+    opacity: 0.4;
+  }
+
+  &.thin {
+    font-weight: 300;
+  }
+
+  &.black {
+    color: #252526;
+  }
+
+  &.dark-gray {
+    color: #42454c;
+  }
+
+  &.medium-gray {
+    color: #e8e8e9;
+  }
+
+  &.white {
+    color: #fafafa;
+  }
+
+  &.orange {
+    color: #f96237;
+  }
+
+  &.purple {
+    color: #6b58e0;
+  }
+
+  &.blue {
+    color: #3f73f9;
+  }
+}

@@ -1,0 +1,27 @@
+.FileUpload {
+  .filepond--root {
+    min-height: 32px;
+  }
+
+  .filepond--credits {
+    display: none;
+  }
+
+  .filepond--drop-label {
+    color: #3f73f9;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 15px;
+    height: -webkit-fill-available;
+  }
+
+  .filepond--label-action {
+    font-style: 10px;
+    text-decoration: none;
+  }
+
+  .filepond--panel-root {
+    background: #eff4ff;
+    border: 1px dashed #3f73f9;
+  }
+}

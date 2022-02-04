@@ -1,0 +1,29 @@
+.Statistics {
+  .line {
+    height: 2px;
+    width: 100%;
+    background-color: #42454c;
+    opacity: 0.1;
+    margin: 40px 0;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+
+    .CategoryStatistics {
+      margin-right: 20px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .Card {
+    .CardDashedGraph {
+      padding: 0;
+    }
+  }
+}

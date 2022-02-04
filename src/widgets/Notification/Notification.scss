@@ -1,0 +1,24 @@
+.Notification {
+  margin: 0 25px;
+  border-right: 1px solid rgba(66, 69, 76, 0.1);
+  padding-right: 25px;
+  position: relative;
+
+  .Dropdown-content {
+    min-width: 390px;
+
+    .h2 {
+      padding: 0 20px 10px 20px;
+      font-weight: normal;
+      border-bottom: 1px solid rgba(66, 69, 76, 0.1);
+    }
+
+    .body2 {
+      padding: 12px 20px;
+
+      &:hover {
+        background: rgba(163, 148, 142, 0.05);
+      }
+    }
+  }
+}

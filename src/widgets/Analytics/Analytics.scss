@@ -1,0 +1,17 @@
+.Analytics {
+  .Card {
+    .content {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .save {
+    margin-left: auto;
+    width: 210px;
+
+    svg {
+      margin-left: 15px;
+    }
+  }
+}

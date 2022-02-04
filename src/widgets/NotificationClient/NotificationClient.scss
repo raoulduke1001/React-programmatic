@@ -1,0 +1,19 @@
+.NotificationClient {
+  padding: 10px 20px;
+  border-bottom: 1px solid rgba(66, 69, 76, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:hover {
+    background: rgba(163, 148, 142, 0.05);
+  }
+
+  .notification-client__sum {
+    color: #3f73f9;
+  }
+}

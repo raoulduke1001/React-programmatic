@@ -1,0 +1,32 @@
+.Balance {
+  .h1 {
+    margin-bottom: 40px;
+  }
+
+  .CardWhite {
+    padding: 60px;
+
+    .h1,
+    .h2 {
+      font-weight: 700;
+    }
+
+    input {
+      margin-top: 20px;
+      width: 415px;
+      background: #f0f1f3;
+    }
+
+    .actions {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      flex: 1;
+      margin-top: 60px;
+
+      .primary {
+        width: 210px;
+      }
+    }
+  }
+}

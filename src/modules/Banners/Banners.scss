@@ -1,0 +1,235 @@
+.Banners {
+  .container {
+    padding: 0 40px;
+  }
+
+  .title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .sub-title {
+    font-weight: normal;
+    opacity: 0.6;
+  }
+
+  .banners-images {
+    border: 3px solid #f0f1f3;
+    box-sizing: border-box;
+    border-radius: 24px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 40px;
+
+    .close {
+      position: absolute;
+      right: 22px;
+      top: 22px;
+    }
+
+    .add {
+      min-width: 225px;
+      margin-right: 40px;
+
+      .download {
+        font-weight: 600;
+        font-size: 12px;
+        text-decoration-line: underline;
+        color: #3f73f9;
+        margin-bottom: 20px;
+      }
+
+      .FileUpload-company {
+        .filepond--root {
+          height: 225px !important;
+        }
+      }
+    }
+
+    .library {
+      .sort {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+
+        .watch {
+          margin-left: 30px;
+          font-weight: 600;
+          font-size: 12px;
+
+          a {
+            margin-left: 5px;
+            font-weight: 600;
+            font-size: 12px;
+            text-decoration-line: underline;
+            color: #3f73f9;
+          }
+        }
+      }
+
+      .carousel {
+        display: flex;
+        align-items: center;
+
+        .item {
+          margin-right: 20px;
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .line {
+    height: 2px;
+    width: 100%;
+    background-color: #f0f1f3;
+    margin: 40px 0;
+  }
+
+  .add-banners {
+    margin-top: 40px;
+    width: 305px;
+  }
+
+  .rows {
+    margin-top: 40px;
+
+    .row {
+      margin-bottom: 40px;
+
+      .items {
+        margin-top: 20px;
+
+        input {
+          width: 630px;
+          background: #f0f1f3;
+        }
+
+        .description {
+          width: 630px;
+          background: #f0f1f3;
+          height: 76px;
+          border: none;
+          font-size: 14px;
+          font-family: Lato;
+          font-weight: normal;
+          padding: 8px 12px;
+          outline: none;
+
+          &::placeholder {
+            color: rgba(66, 69, 76, 0.5);
+          }
+        }
+
+        .Select {
+          width: 630px;
+          margin: 20px 0;
+        }
+
+        .disabled {
+          height: 81px;
+          margin: 20px 0;
+
+          &::placeholder {
+            color: #42454c;
+          }
+        }
+
+        .RadioButton:first-child {
+          margin-bottom: 15px;
+        }
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .row-wrapp {
+      display: flex;
+      align-items: center;
+
+      .row {
+        margin-right: 20px;
+
+        .items {
+          .Select {
+            width: 630px;
+          }
+        }
+
+        .items-crm {
+          input {
+            margin-bottom: 20px;
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+
+        .FileUpload-banner {
+          width: 630px;
+          margin-top: 20px;
+
+          .filepond--root {
+            height: 180px !important;
+          }
+        }
+
+        .FileUpload-crm {
+          margin-top: 20px;
+          width: 630px;
+
+          .filepond--root {
+            height: 84px !important;
+          }
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+
+    .actions-company {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+
+      .Button {
+        width: 305px;
+      }
+
+      .primary {
+        margin-left: 20px;
+      }
+    }
+  }
+
+  .actions {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    height: 72px;
+    background: #f9f9f9;
+    padding: 0 40px;
+    border-radius: 0 0 24px 24px;
+
+    .wrapp {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      flex: 1;
+
+      .secondary {
+        margin-right: 20px;
+      }
+    }
+  }
+}

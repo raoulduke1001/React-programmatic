@@ -1,0 +1,18 @@
+.Catalog {
+  background: rgba(63, 115, 249, 0.1);
+  border-radius: 4px;
+  border: 1px solid #3f73f9;
+  height: 32px;
+  min-width: 80px;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .Typography {
+    font-weight: 400;
+    color: #3f73f9;
+  }
+}

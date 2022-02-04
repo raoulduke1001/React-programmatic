@@ -1,0 +1,35 @@
+.Button {
+  font-size: 14px;
+  min-width: 130px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &.primary {
+    background: #3f73f9;
+    color: #fff;
+  }
+
+  &.secondary {
+    border: 1px solid #3f73f9;
+    color: #3f73f9;
+  }
+
+  &.gradient {
+    background: linear-gradient(180deg, #6b58e0 0%, #3f73f9 100%);
+    color: #ffffff;
+  }
+
+  &.rate {
+    background: rgba(63, 115, 249, 0.1);
+    border: 1px solid #3f73f9;
+    color: #3f73f9;
+  }
+
+  &.noBorder {
+    background: #dee7ff;
+    color: #3f73f9;
+  }
+}

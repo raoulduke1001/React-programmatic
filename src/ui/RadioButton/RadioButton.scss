@@ -1,0 +1,36 @@
+.RadioButton {
+  display: flex;
+  align-items: center;
+
+  .radio {
+    margin: 0;
+    width: 16px;
+    height: 16px;
+    box-shadow: none;
+    background-color: #fff;
+    border: 1px solid #3f73f9;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .isSelectedRadio {
+    position: relative;
+
+    &::after {
+      content: "";
+
+      position: absolute;
+      background-color: #3f73f9;
+      width: 10px;
+      height: 10px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+    }
+  }
+
+  .Typography {
+    margin-left: 10px;
+  }
+}

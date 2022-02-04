@@ -1,0 +1,21 @@
+.Devices {
+  margin: 0 20px;
+
+  .CardWhite {
+    width: 325px;
+    min-height: 455px;
+
+    .name {
+      font-weight: 600;
+      margin: 15px 0;
+    }
+
+    .AreaChart {
+      margin-bottom: 40px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

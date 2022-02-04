@@ -1,0 +1,22 @@
+.SortIcon {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2px 4px;
+
+  svg {
+    fill: #42454c;
+    opacity: 0.6;
+
+    &.active {
+      fill: #3f73f9;
+      opacity: 1;
+    }
+
+    &:last-child {
+      margin-top: 3px;
+      transform: rotate(180deg);
+    }
+  }
+}

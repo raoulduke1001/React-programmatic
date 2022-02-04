@@ -1,0 +1,21 @@
+.AreaChart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .about {
+    .body1 {
+      opacity: 0.6;
+      margin-bottom: 5px;
+    }
+
+    .h1 {
+      font-weight: 600;
+    }
+  }
+
+  .graph {
+    width: 145px;
+    height: 70px;
+  }
+}

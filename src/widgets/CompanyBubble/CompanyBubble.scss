@@ -1,0 +1,57 @@
+.CompanyBubble {
+  overflow: hidden;
+
+  .Card {
+    .content {
+      display: flex;
+      padding: 40px;
+    }
+  }
+
+  .column {
+    .client {
+      display: flex;
+      align-items: flex-end;
+      margin-bottom: 10px;
+
+      .span {
+        margin: 0 10px;
+      }
+    }
+
+    .category {
+      max-width: 480px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+
+      .Catalog {
+        margin: 0 10px 10px 0;
+      }
+    }
+
+    .title {
+      letter-spacing: 0.04em;
+    }
+
+    .items {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 10px;
+
+      .BudgetManagement:last-child {
+        margin-right: 0;
+      }
+
+      .statistics {
+        background: none;
+        width: 80px;
+      }
+    }
+  }
+
+  .Line {
+    margin: 0 40px;
+  }
+}

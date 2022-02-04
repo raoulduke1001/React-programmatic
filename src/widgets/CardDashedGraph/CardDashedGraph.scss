@@ -1,0 +1,84 @@
+.CardDashedGraph {
+  padding: 20px 40px;
+
+  .header {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+      .body1 {
+        opacity: 0.6;
+      }
+    }
+
+    .interface {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin: 20px 0;
+
+      .DatePicker {
+        margin-right: 20px;
+
+        .date-picker {
+          background: #f0f1f3;
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04),
+            0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+        }
+      }
+
+      .primary {
+        width: 210px;
+
+        svg {
+          margin-left: 15px;
+        }
+      }
+
+      .tabs {
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+
+        .Catalog {
+          margin-right: 10px;
+
+          &:last-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .main-block {
+    display: flex;
+
+    .graph {
+      flex: 1;
+      width: 900px;
+      height: 300px;
+      margin-top: auto;
+      margin-right: 80px;
+    }
+
+    .category-list {
+      display: flex;
+      flex-direction: column;
+
+      .Category {
+        width: 207px;
+        margin-bottom: 20px;
+
+        .Line {
+          margin: 0 10px 0 0;
+        }
+
+        .type {
+          color: #42454c;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
